@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+}
+
+@font-face {
+    font-family: "AbrilFatface";
+    src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+}
+
+body {
+    background-color: #132743;
+}
+
+h1 {
+    /*
+    text-align: center;
+    display: block;
+    align-content: center;
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    color: #ffb5b5;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+#container {
+    /*
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#btn {
+    align-items: center;
+    color: #407088;
+    margin: 1.5rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: fit-content;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    border: 1px solid;
+    transition: 0.3s ease-in-out;
+}
+
+#btn:hover {
+    transition: 0.3s ease-in-out;
+    background: #ffb5b5;
+    color: #fff;
+    text-decoration: underline;
+}
+
+#btn:active {
+    margin-top: 1rem;
+    color: black;
+    box-shadow: 0px 0px;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+#output, #output2, #output3, #output4, #output5, #output6 {
+    align-items: center;
+    color: #ffcbcb;
+    font-size: 1.5em;
+    line-height: 50px;
+}
